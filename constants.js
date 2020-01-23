@@ -385,6 +385,7 @@ constantsProvider.unitList = [
 "Scout Cavalry",
 "Skirmisher",
 "Spearman",
+"Steppe Lancer",
 "Swordsman",
 "Tarkan",
 "Teutonic Knight",
