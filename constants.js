@@ -137,6 +137,13 @@ angular.module('uctc').provider('constants',function(){
   "G" : 0,
   "Time" : 22
 },
+{
+  "Unit" : "Steppe Lancer",
+  "W" : 0,
+  "F" : 70,
+  "G" : 45,
+  "Time" : 24
+},
  {
   "Unit" : "Swordsman",
   "W" : 0,
