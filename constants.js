@@ -18,6 +18,13 @@ angular.module('uctc').provider('constants',function(){
   "G" : 75,
   "Time" : 36
 },
+{
+  "Unit" : "Battle Elephant",
+  "W" : 0,
+  "F" : 120,
+  "G" : 70,
+  "Time" : 24
+},
  {
   "Unit" : "Bombard Cannon",
   "W" : 225,
@@ -26,7 +33,7 @@ angular.module('uctc').provider('constants',function(){
   "Time" : 57
 },
  {
-  "Unit" : "Camel",
+  "Unit" : "Camel Rider",
   "W" : 0,
   "F" : 55,
   "G" : 60,
@@ -94,6 +101,13 @@ angular.module('uctc').provider('constants',function(){
   "F" : 60,
   "G" : 75,
   "Time" : 30
+},
+{
+  "Unit" : "Keshik",
+  "W" : 0,
+  "F" : 50,
+  "G" : 40,
+  "Time" : 23
 },
 {
   "Unit" : "Scout Cavalry",
@@ -236,6 +250,20 @@ angular.module('uctc').provider('constants',function(){
   "Time" : 17
 },
 {
+  "Unit" : "Konnik",
+  "W" : 0,
+  "F" : 60,
+  "G" : 70,
+  "Time" : 19
+},
+{
+  "Unit" : "Leitis",
+  "W" : 0,
+  "F" : 50,
+  "G" : 80,
+  "Time" : 23
+},
+{
   "Unit" : "Longboat",
   "W" : 100,
   "F" : 0,
@@ -334,6 +362,13 @@ angular.module('uctc').provider('constants',function(){
   "Time" : 10
 },
 {
+  "Unit" : "Xolotl Warrior",
+  "W" : 0,
+  "F" : 60,
+  "G" : 75,
+  "Time" : 30
+},
+{
   "Unit" : "Farm",
   "W" : 60,
   "F" : 0,
@@ -354,9 +389,10 @@ constantsProvider.collectionRate = {
 constantsProvider.unitList = [
   "Archer",
 "Battering Ram",
+"Battle Elephant",
 "Berserk",
 "Bombard Cannon",
-"Camel",
+"Camel Rider",
 "Cannon Galleon",
 "Cataphract",
 "Cavalry Archer",
@@ -372,6 +408,9 @@ constantsProvider.unitList = [
 "Jaguar Warrior",
 "Janissary" ,
 "Knight" ,
+"Konnik",
+"Leitis",
+"Keshik",
 "Longboat" ,
 "Longbowman" ,
 "Mameluke" ,
@@ -399,6 +438,7 @@ constantsProvider.unitList = [
 "War Elephant",
 "War Wagon",
 "Woad Raider"
+"Xolotl Warrior",
 ];
 
 constantsProvider.$get = function() {
