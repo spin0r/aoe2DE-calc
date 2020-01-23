@@ -437,8 +437,8 @@ constantsProvider.unitList = [
 "Villager",
 "War Elephant",
 "War Wagon",
-"Woad Raider"
-"Xolotl Warrior",
+"Woad Raider",
+"Xolotl Warrior"
 ];
 
 constantsProvider.$get = function() {
